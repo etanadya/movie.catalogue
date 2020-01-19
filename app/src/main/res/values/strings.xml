@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="judul_movie">Judul Movie</string>
+    <string name="deskripsi">deskripsi adalah keterangan yang menjelaskan suatu hal</string>
+    <string name="moreInfo">More Info</string>
+    <string name="tglTayang">9 Juni 1996</string>
+    <string name="director_">Director :</string>
+    <string name="namaDirector">Nadya</string>
+    <string name="screenplay">Screenplay :</string>
+    <string name="namaScreenplay">Nadya</string>
+    <string name="rate">Rate</string>
+    <string name="persenRate">100\%</string>
+    <string name="deskripsi_detail">Description</string>
+    <string name="isi_deskripsi_detail">Aku adalah anak gembala\, selalu riang serta gembira\. karena aku senang bekerja\, tak pernah malas ataupun lengah\.</string>
+
+    <string-array name="data_judul_film">
+        <item>Aquaman</item>
+        <item>Avengers\: Infinity War</item>
+        <item>Bumblebee</item>
+        <item>Creed II</item>
+        <item>Once Upon a Deadpool</item>
+        <item>How to Train Your Dragon\: The Hidden World</item>
+        <item>Glass</item>
+        <item>Preman Pensiun</item>
+        <item>Spider-Man\: Into the Spider-Verse</item>
+        <item>Venom</item>
+    </string-array>
+
+    <string-array name="data_deskripsi_film">
+        <item>Dulunya merupakan rumah bagi peradaban paling maju di Bumi\, Atlantis sekarang merupakan kerajaan bawah laut yang diperintah oleh Raja Orm yang haus kekuasaan\.Dengan pasukan yang sangat besar\, Orm berencana untuk menaklukkan orang-orang samudera yang tersisa dan kemudian ke permukaan dunia</item>
+        <item>Ketika Avengers dan sekutu mereka terus melindungi dunia dari ancaman yang terlalu besar untuk ditangani oleh satu pahlawan\, bahaya baru telah muncul dari bayang-bayang kosmik\: Thanos\. Seorang lalim penghinaan intergalaksi\, tujuannya adalah untuk mengumpulkan semua enam Batu Infinity\, artefak kekuatan tak terbayangkan\, dan menggunakannya untuk menimbulkan keinginannya yang terpelintir pada semua kenyataan</item>
+        <item>Dalam pelarian pada tahun 1987\, Bumblebee menemukan perlindungan di tempat barang rongsokan di kota pantai kecil California\. Charlie\, di puncak usia 18 dan berusaha menemukan tempatnya di dunia\, menemukan Bumblebee\, bekas luka pertempuran dan patah\. Ketika Charlie menghidupkannya\, dia dengan cepat mengetahui bahwa ini bukan bug VW kuning biasa</item>
+        <item>Antara kewajiban pribadi dan pelatihan untuk pertarungan besar berikutnya melawan lawan yang memiliki ikatan dengan masa lalu keluarganya\, Adonis Creed menghadapi tantangan hidupnya</item>
+        <item>Fred Savage yang diculik dipaksa untuk menahan Deadpool PG\-13 membawakan Deadpool 2 sebagai kisah Putri Pengantin yang penuh keajaiban, keajaiban dan nol F</item>
+        <item>Ketika Hiccup memenuhi mimpinya untuk menciptakan utopia naga yang damai\, penemuan Toothless \'dari pasangan yang tak teruji dan sukar ditangkap membuat Night Fury menjauh\. Ketika bahaya meningkat di rumah dan pemerintahan Hiccup sebagai kepala desa diuji\, baik naga dan pengendara harus membuat keputusan yang mustahil untuk menyelamatkan jenis mereka</item>
+        <item>Dalam serangkaian pertemuan yang meningkat, mantan penjaga keamanan David Dunn menggunakan kemampuan supernaturalnya untuk melacak Kevin Wendell Crumb\, seorang lelaki terganggu yang memiliki dua puluh empat kepribadian\. Sementara itu\, kehadiran bayangan Elia Price muncul sebagai orkestra yang menyimpan rahasia penting bagi keduanya</item>
+        <item>Setelah tiga tahun\, bisnis Muslihat (\Epi Kusnandar\)\, yang telah pensiun sebagai preman\, memiliki masalah penurunan penjualan\. Muslihat juga menghadapi masalah baru ketika Safira \(Safira Maharani\)\, satu-satunya anak perempuannya\, tumbuh dewasa dan mulai dikunjungi oleh anak laki-laki</item>
+        <item>Miles Morales menyulap hidupnya antara menjadi siswa sekolah menengah dan menjadi manusia laba-laba\. Ketika Wilson \"Kingpin\" Fisk menggunakan collider super\, yang lain dari seberang Spider-Verse diangkut ke dimensi ini</item>
+        <item>Jurnalis investigasi Eddie Brock berusaha untuk kembali setelah skandal\, tetapi secara tidak sengaja menjadi tuan rumah Venom\, seorang simbiot alien yang sangat kuat dan sakti\. Segera\, ia harus mengandalkan kekuatan barunya untuk melindungi dunia dari organisasi bayangan yang mencari simbiosis mereka sendiri</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_deadpool</item>
+        <item>@drawable/poster_dragon</item>
+        <item>@drawable/poster_glass</item>
+        <item>@drawable/poster_preman</item>
+        <item>@drawable/poster_spiderman</item>
+        <item>@drawable/poster_venom</item>
+    </string-array>
+
+    <string-array name="data_tglTayang">
+        <item>21 Desember 2018</item>
+        <item>25 April 2018</item>
+        <item>19 Desember 2018</item>
+        <item>28 November 2018</item>
+        <item>15 Mei 2018</item>
+        <item>9 Januari 2019</item>
+        <item>16 Januari 2019</item>
+        <item>17 Januari 2019</item>
+        <item>12 Desember 2018</item>
+        <item>3 Oktober 2018</item>
+    </string-array>
+
+    <string-array name="data_director">
+        <item>James Wan</item>
+        <item>Joe Russo</item>
+        <item>Travis Knight</item>
+        <item>Steven Caple Jr.</item>
+        <item>David Leitch</item>
+        <item>Dean DeBlois</item>
+        <item>M. Night Shyamalan</item>
+        <item>Aris Nugraha</item>
+        <item>Peter Ramsey</item>
+        <item>Ruben Fleischer</item>
+    </string-array>
+
+    <string-array name="data_screen_play">
+        <item>Will Beall</item>
+        <item>Christopher Markus</item>
+        <item>Christina Hodson</item>
+        <item>Juel Taylor</item>
+        <item>/-</item>
+        <item>Dean DeBlois</item>
+        <item>M. Night Shyamalan</item>
+        <item>Phil Lord</item>
+        <item>Jeff Pinkner</item>
+    </string-array>
+
+    <string-array name="data_rate_film">
+        <item>68\%</item>
+        <item>83\%</item>
+        <item>65\%</item>
+        <item>68\%</item>
+        <item>69\%</item>
+        <item>77\%</item>
+        <item>65\%</item>
+        <item>84\%</item>
+        <item>66\%</item>
+    </string-array>
+
+</resources>

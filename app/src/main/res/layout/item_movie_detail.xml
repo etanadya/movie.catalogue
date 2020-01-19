@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_atas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_photo_detail"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_judul_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_toEndOf="@id/img_photo_detail"
+            android:text="@string/judul_movie"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_tglTayang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_judul_detail"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/img_photo_detail"
+            android:text="@string/tglTayang" />
+
+        <TextView
+            android:id="@+id/tv_director"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_tglTayang"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/img_photo_detail"
+            android:text="@string/director_" />
+
+        <TextView
+            android:id="@+id/tv_namaDirector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_director"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/img_photo_detail"
+            android:text="@string/namaDirector" />
+
+        <TextView
+            android:id="@+id/tv_screenplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_namaDirector"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/img_photo_detail"
+            android:text="@string/screenplay" />
+
+        <TextView
+            android:id="@+id/tv_namaScreenplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_screenplay"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/img_photo_detail"
+            android:text="@string/namaScreenplay" />
+
+        <TextView
+            android:id="@+id/tv_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_tglTayang"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/tv_director"
+            android:text="@string/rate"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_isiRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_rate"
+            android:layout_marginStart="38dp"
+            android:layout_toRightOf="@id/tv_screenplay"
+            android:text="@string/persenRate"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_deskripsi_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_photo_detail"
+            android:layout_marginTop="25dp"
+            android:text="@string/deskripsi_detail"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_deskripsi_isiDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_deskripsi_detail"
+            android:layout_marginTop="25dp"
+            android:text="@string/isi_deskripsi_detail"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

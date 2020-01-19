@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/img_photo"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@id/img_photo"
+        android:text="@string/judul_movie"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@color/colorBackgroundJudul"/>
+
+    <TextView
+        android:id="@+id/tv_deskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_judul"
+        android:layout_toRightOf="@id/img_photo"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:text="@string/deskripsi"
+        android:textSize="13sp"
+        />
+
+    <TextView
+        android:id="@+id/ttv_moreInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_deskripsi"
+        android:layout_toRightOf="@id/img_photo"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="28dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="@string/moreInfo"
+        android:textColor="@color/colorRed"/>
+
+</RelativeLayout>
