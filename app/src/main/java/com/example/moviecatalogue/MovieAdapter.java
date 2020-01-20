@@ -59,16 +59,18 @@ public class MovieAdapter extends BaseAdapter {
         private TextView tvDeskripsi;
         private ImageView imgPhoto;
 
+
         ViewHolder(View view){
             tvJudul = view.findViewById(R.id.tv_judul);
             tvDeskripsi = view.findViewById(R.id.tv_deskripsi);
             imgPhoto = view.findViewById(R.id.img_photo);
-        }
+    }
 
         void bind(Movie movie){
             tvJudul.setText(movie.getJudul());
             tvDeskripsi.setText(movie.getDeskripsi());
             imgPhoto.setImageResource(movie.getPhoto());
+
         }
     }
 }
